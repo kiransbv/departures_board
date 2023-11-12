@@ -15,7 +15,31 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
 
 # Go workspace file
 go.work
+
+# Wails bin directory
+build/bin
+
+# IDEs
+.idea
+.vscode
+
+# The black hole that is...
+node_modules
+
+.DS_Store
+
+# Log files
+
+*.log
+
+departures_board.pkg
+
+# Exclude Dist Directory
+frontend/dist
+
+build/linux/flatpak
+build/linux/.flatpak-builder
